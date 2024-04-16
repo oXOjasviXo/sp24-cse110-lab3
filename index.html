@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport", content = "width = device-width, initial-scale = 1.0">
+    <title>Pomodoro Timer First Brainstorm</title>
+    <link rel = "icon" href = "./favicon.ico" type = "image/x-icon">
+  </head>
+  <body>
+    <header>
+        <h1>Pomodoro Timer First Brainstorm</h1>
+        <h2> Storming the Brain Session 1</h2>
+        <h3>Date: 16/4/24</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href = "#agenda">Agenda</a></li>
+            <li><a href = "#minutes">Minutes</a></li>
+            <li><a href = "#memes">Memes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div>
+            <section id = "agenda">
+                <h2> Agenda </h2>
+                <ol>
+                    <li>Go over previous meeting leftovers</li>
+                    <li>Discuss features to include</li>
+                    <li>Allocate tasks</li>
+                </ol>
+            </section>
+
+            <section id = "minutes">
+                <h2> Minutes </h2>
+                <p><strong>Tasks:</strong> Implement UI elements by <b>24th May</b></b></p>
+                <p><em>Note:</em> Ensure compatibility with <b><i>mobile</i></b><br>we've had some issues before</p>
+                <details>
+                    <summary>Click to get more details <sub><i>doesn't lead to a shady website at all</i></sub></summary>
+                    <p>Details details details</p>
+                    <p>a few more details</p>
+                    <p>that should be <span>enough details</span> about details</p>
+                </details>
+            </section>
+        </div>
+        <hr>
+
+        <section id = "memes">
+            <h2>Le Memes</h2>
+            <img src = "./chatgptmeme.webp" width="100%" height="auto">
+        </section>
+        
+        <section id = "misc">
+            <h2>Audio</h2>
+            <p>Ruel - Painkiller</p>
+            <audio controls>
+                <source src = "./Ruel-Painkiller.mp3" type="audio/mpeg">
+                Failed audio?
+            </audio>
+            <h2>Video</h2>
+            <video controls width = "100%" height = "auto">
+                <source src = "RandomVid.mp4" type="video/mp4">
+                Failed Video?
+            </video>
+
+            <h2>Forms</h2>
+            <form>
+                <fieldset>
+                    <legend>Feeback form</legend>
+                    <label for = "satisfaction">Are you satisfied with the meeting?</label>
+                    <br>
+                    <input type = "radio" id = "satisfied" name = "satisfaction" value="Yes"> Yes
+                    <br>
+                    <input type = "radio" id = "satisfied" name = "satisfaction" value="No"> No
+                    <br>
+                    <label for = "comments">Additional Comments/Suggestions</label>
+                    <br>
+                    <textarea id = "comments" name = "comments" rows = "5" cols = "50">Comments</textarea>
+                    <br>
+                    <label for="browser">Favourite Browser:</label>
+                    <input list="browsers" id="browser" name="browser">
+                    <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                        <option value="Edge">
+                        <option value="Opera">
+                    </datalist>
+                    <br>
+                    <label for="contact">Preferred Contact Method:</label>
+                    <select id="contact" name="contact">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="mail">Mail</option>
+                    </select>
+                    <br>
+                    <button type="submit">Submit Feedback</button>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <p>Contact us at 555-555-5555</p>
+        </footer>
+    </main>
+  </body>
+</html>
