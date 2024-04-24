@@ -86,5 +86,11 @@ p.combo {
     font-size: 1.1em;
 }
 
+.smol{
+    width: 10%;
+    height: 20%;
+    min-width: 50px;
+    max-width: 200px;
+}
 
 
