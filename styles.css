@@ -42,4 +42,22 @@ main {
     #misc, #LoremIpsum {
         grid-column: span 2;  /* Makes certain sections span all columns */
     }
+
+}
+
+*{
+    font-family:Roboto;
+}
+
+[href] {
+    color: #FF7F2A;
+}
+
+h2:hover{
+    color: #A000FB;
+}
+
+a:active{
+    color: #0000FF;
+
 }
