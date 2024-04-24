@@ -1,6 +1,6 @@
 body {
     margin: 2% 1% 1% 1%;
-    padding: 1% 1% 1% 1%;
+    padding: 1% 1% 5% 1%;
     border-style: groove;
     border-radius: 0.5%;
 }
@@ -15,4 +15,18 @@ header{
     border-width: 2px;
     border-style: solid;
     border-color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
 }
