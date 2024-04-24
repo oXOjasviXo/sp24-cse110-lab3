@@ -5,7 +5,9 @@ body {
     border-radius: 0.5%;
 }
 
-header{
+header {
+    position: fixed;
+    background-color: white;
     margin-top: 3%;
     margin-left: 1%;
     margin-right: 1%;
@@ -15,6 +17,11 @@ header{
     border-width: 2px;
     border-style: solid;
     border-color: #474747;
+    width: 90%
+}
+
+nav {
+    position: sticky;
 }
 
 nav ul {
@@ -25,6 +32,10 @@ nav ul {
 }
 
 main {
+    margin-top: 30vh;
+}
+
+.container {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr;
