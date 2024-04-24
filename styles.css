@@ -45,6 +45,15 @@ main {
 
 }
 
+:root {
+    --primary-color: hsl(9, 100%, 64%);;
+}
+
+button {
+    color: white;
+    background-color: var(--primary-color, blue); /* Fallback to blue if --primary-color is not available */
+}
+
 *{
     font-family:Roboto;
 }
