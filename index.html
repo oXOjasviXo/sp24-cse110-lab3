@@ -5,6 +5,7 @@
     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <title>Pomodoro Timer First Brainstorm</title>
     <link rel = "icon" href = "./favicon.ico" type = "image/x-icon">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -21,7 +22,7 @@
         </ul>
     </nav>
 
-    <main>
+    <main class = "gridMain">
         <div>
             <section id = "agenda">
                 <h2> Agenda </h2>
@@ -42,28 +43,31 @@
                     <p>a few more details</p>
                     <p>that should be <span>enough details</span> about details</p>
                 </details>
+                
             </section>
         </div>
-        <hr>
 
         <section id = "memes">
             <h2>Le Memes</h2>
             <img src = "./chatgptmeme.webp" width="300" alt = "meme">
         </section>
         
-        <section id = "misc">
+        <section id = "audio">
             <h2>Audio</h2>
             <p>Ruel - Painkiller</p>
             <audio controls>
                 <source src = "./Ruel-Painkiller.mp3" type="audio/mpeg">
                 Failed audio?
             </audio>
+        </section>
+        <section id = "video">
             <h2>Video</h2>
             <video controls width = "300">
                 <source src = "RandomVid.mp4" type="video/mp4">
                 Failed Video?
             </video>
-
+        </section>
+        <section id = "misc">
             <h2>Forms</h2>
             <form>
                 <fieldset>
@@ -100,9 +104,30 @@
                 </fieldset>
             </form>
         </section>
-        <footer>
-            <p>Contact us at 555-555-5555</p>
-        </footer>
+        <section id = "LoremIpsum">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis diam sollicitudin, sollicitudin arcu nec, 
+                vestibulum sapien. Cras vel odio accumsan, euismod ante et, vestibulum nisl. Nullam at scelerisque eros, non vehicula magna. 
+                Aliquam leo erat, ultrices sit amet libero quis, scelerisque ullamcorper orci. Ut vel massa ultricies, consequat magna eget, congue augue. 
+                Mauris feugiat, libero sit amet laoreet viverra, quam nulla sodales augue, quis ultrices urna eros eu dui. Proin sodales molestie odio eget ullamcorper. 
+                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+            <p>
+                Aliquam nec consectetur velit. In iaculis commodo sapien, ut cursus nibh ullamcorper et. Etiam eu arcu malesuada, 
+                scelerisque quam et, accumsan ex. Vestibulum aliquam libero non neque posuere venenatis egestas id libero. 
+                Pellentesque at ante dui. Etiam sollicitudin posuere dolor, et luctus nisl ultrices et. Suspendisse ac ante nec dui lobortis eleifend eu ut lorem. 
+                Fusce dapibus dui purus, at scelerisque eros auctor eu.
+            </p>
+            <p>
+                Quisque luctus mauris tellus, vulputate vehicula nisi semper vitae. Donec interdum ante a odio tincidunt, in fringilla elit mattis. 
+                Curabitur condimentum urna ut lorem ultricies, in sodales enim tristique. Maecenas sit amet auctor lorem. Etiam a tempor eros, in faucibus dolor. 
+                Proin vitae dapibus ligula. Nam vel ligula ut ante maximus ultrices at vehicula dui. Ut ullamcorper egestas nunc in posuere. Nunc porttitor condimentum auctor. 
+                Etiam nec libero at magna condimentum auctor eu id risus.
+            </p>
+        </section>
     </main>
+    <footer>
+        <p>Contact us at 555-555-5555</p>
+    </footer>
   </body>
 </html>
