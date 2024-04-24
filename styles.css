@@ -125,3 +125,16 @@ p.combo {
 #l3 {
     display: inline;
 }
+
+section:has(img) {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+#minutes p {
+    color: color(display-p3 1 0.5 1);
+    &:hover {
+        color: color-mix(in srgb, rgb(255, 0, 0) 50%, rgb(0, 0, 255) 50%);
+    }
+
+}
