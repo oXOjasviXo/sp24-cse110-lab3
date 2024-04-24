@@ -43,7 +43,7 @@ main {
     grid-auto-flow: row;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1080px) {
     main {
         grid-template-columns: 2; /* Adjust number of columns as needed */
         grid-auto-rows: minmax(3cm, auto);  /* Adjust sizing as needed */
@@ -53,6 +53,7 @@ main {
     #misc, #LoremIpsum {
         grid-column: span 2;  /* Makes certain sections span all columns */
     }
+
 }
 
 :root {
@@ -78,6 +79,7 @@ h2:hover{
 
 a:active{
     color: #0000FF;
+
 }
 
 #LoremIpsum p {
@@ -104,6 +106,7 @@ p.combo {
     border-width: 2px;
     padding: 1vh;
     font-size: 1.1em;
+
 }
 
 .smol{
@@ -111,6 +114,7 @@ p.combo {
     height: 20%;
     min-width: 50px;
     max-width: 200px;
+
 }
 #l1 {
     display: none;
@@ -132,4 +136,5 @@ section:has(img) {
     &:hover {
         color: color-mix(in srgb, rgb(255, 0, 0) 50%, rgb(0, 0, 255) 50%);
     }
+
 }
