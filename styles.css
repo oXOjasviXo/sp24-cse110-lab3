@@ -96,3 +96,12 @@ p.combo {
     max-width: 200px;
 
 }
+#l1 {
+    display: none;
+}
+#l2 {
+    display: inline;
+}
+#l3 {
+    display: inline;
+}
