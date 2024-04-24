@@ -62,7 +62,9 @@ a:active{
 
 #LoremIpsum p {
     font-style: italic;
-    color: darkred
+    color: darkred;
+    text-align: center;
+    text-decoration: overline;
 }
 
 nav > ul > li {
