@@ -24,7 +24,7 @@ nav ul {
     justify-content: space-around;
 }
 
-main {
+.container {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr;
@@ -32,7 +32,7 @@ main {
     grid-auto-flow: row;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 720px) {
     main {
         grid-template-columns: 2; /* Adjust number of columns as needed */
         grid-auto-rows: minmax(100px, auto);  /* Adjust sizing as needed */
@@ -42,4 +42,20 @@ main {
     #misc, #LoremIpsum {
         grid-column: span 2;  /* Makes certain sections span all columns */
     }
+}
+
+*{
+    font-family:Roboto;
+}
+
+[href] {
+    color: #FF7F2A;
+}
+
+h2:hover{
+    color: #A000FB;
+}
+
+a:active{
+    color: #0000FF;
 }
